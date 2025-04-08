@@ -28,26 +28,45 @@ html {
     }
 
 main {
+    padding-top: 0px;
+    margin-top: 0px;
     background-image:url("images/backg.jpeg");
+    width: 100%;
 }
 
 @font-face {
     font-family: "SoyuzGrotesk";
     src:url("SoyuzGroteskBold.ttf") format("truetype"),
 }
-
+@font-face {
+    font-family: "Cat";
+    src:url("Comic_CAT.otf") format("opentype"),
+}
 .title1 {
+    position: relative;
     margin-left: 131px;
-    margin-top: 47px;
+    /* margin-top: 47px; */
     color: #6B2222;
     font-family: SoyuzGrotesk;
     font-weight: 700;
     font-size: 60px;
     line-height: 100%;
+    z-index: 2;
+}
+
+.title2 {
+    margin-left: 10px;
+    color: #6B2222;
+    font-family: SoyuzGrotesk;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
 }
 
 .image_wrapper {
     display: flex;
+    position: relative;
+    z-index: 1;
 }
 
 .image_me {
@@ -57,4 +76,72 @@ main {
 
 .image_vi {
     margin-left: 2px;
+}
+
+.date_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.date {
+    color: #464343;
+    font-family: Cat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.time_wrapper {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 3px;
+    gap: 60px;
+    align-items: center;
+}
+
+.marriage_loc {
+    text-align: center;
+    color: #464343;
+    font-family: Cat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.newpadding {
+    margin-left: 40px;
+}
+
+.icon_loc {
+    width: 45px;
+    height: 45px;
+}
+
+.marriage_zags {
+    display: flex;
+    align-items: start;
+    margin-left: 4px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.marriage_zags_time {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.marriage_banquet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vl {    
+    width: 0px;
+    height: 84px;
+    border: 2px solid #6B2222;
 }
