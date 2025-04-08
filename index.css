@@ -45,12 +45,12 @@ main {
     src:url("Comic_CAT.otf") format("opentype"),
 }
 .title1 {
-    margin-left: 33%;
+    margin-left: 32vw;
     /* margin-top: 47px; */
     color: #6B2222;
     font-family: SoyuzGrotesk;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 15vw;
     line-height: 100%;
 }
 
