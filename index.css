@@ -98,7 +98,7 @@ main {
     display: flex;
     margin-top: 15px;
     margin-left: 3px;
-    gap: 60px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -144,4 +144,54 @@ main {
     width: 0px;
     height: 84px;
     border: 2px solid #6B2222;
+}
+
+.FAQ_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.FAQ_chapter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FAQ_chapter_title {
+    color: #6B2222;
+    font-family: Cat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.FAQ_chapter_text {
+    width: 343px;
+    color: #464343;
+    font-family: Cat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.PS_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.text_link {
+    padding: 3px 5px;
+    background: #6B2222;
+    border-radius: 100px;
+    color: white;
+    font-family: Cat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
 }
