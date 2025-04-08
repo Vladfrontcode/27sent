@@ -32,6 +32,7 @@ main {
     margin-top: 0px;
     background-image:url("images/backg.jpeg");
     width: 100%;
+    overflow: hidden;
 }
 
 @font-face {
@@ -43,7 +44,6 @@ main {
     src:url("Comic_CAT.otf") format("opentype"),
 }
 .title1 {
-    position: relative;
     margin-left: 131px;
     /* margin-top: 47px; */
     color: #6B2222;
@@ -51,7 +51,6 @@ main {
     font-weight: 700;
     font-size: 60px;
     line-height: 100%;
-    z-index: 2;
 }
 
 .title2 {
@@ -65,8 +64,6 @@ main {
 
 .image_wrapper {
     display: flex;
-    position: relative;
-    z-index: 1;
 }
 
 .image_me {
