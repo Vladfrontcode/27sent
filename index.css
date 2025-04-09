@@ -63,7 +63,7 @@ main {
     color: #6B2222;
     font-family: SoyuzGrotesk;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 7.63vw;
     line-height: 100%;
 }
 
@@ -96,7 +96,7 @@ main {
     color: #464343;
     font-family: Cat;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 7.63vw;
     line-height: 100%;
 }
 
@@ -113,7 +113,7 @@ main {
     color: #464343;
     font-family: Cat;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 4.07vw;
     line-height: 100%;
 }
 
@@ -122,13 +122,12 @@ main {
 }
 
 .calendar {
-    width: 37.5px;
-    height: 36.5625px;
+    width: 9.54vw;
 }
 
 .icon_loc {
-    width: 45px;
-    height: 45px;
+    width: 11.45vw;
+    height: 11.45vw;
 }
 
 .marriage_zags {
@@ -153,7 +152,7 @@ main {
 
 .vl {    
     width: 0px;
-    height: 84px;
+    height: 21.37vw;
     border: 2px solid #6B2222;
 }
 
@@ -180,11 +179,11 @@ main {
 }
 
 .FAQ_chapter_text {
-    width: 343px;
+    width: 87.27vw;
     color: #464343;
     font-family: Cat;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 4.07vw;
     line-height: 130%;
 }
 
@@ -198,7 +197,7 @@ main {
 }
 
 .stars {
-    max-width: 312px;
+    max-width: 79.39vw;
 }
 
 .text_link {
@@ -208,7 +207,7 @@ main {
     color: white;
     font-family: Cat;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 4.07vw;
     line-height: 130%;
 }
 
