@@ -45,19 +45,18 @@ main {
     src:url("Comic_CAT.otf") format("opentype"),
 }
 
-h1 {
+/* h1 {
     text-align: left;
 }
 
 .title1 {
-    margin-left: 34%;
-    /*margin-top: 47px; */
+    margin-left: 34%;    
     color: #6B2222;
     font-family: SoyuzGrotesk;
     font-weight: 700;
     font-size: 15vw;
     line-height: 100%;
-}
+} */
 
 .title2 {
     margin-left: 10px;
@@ -72,13 +71,17 @@ h1 {
     display: flex;
 }
 
-.image_me {
+/* .image_me {
     margin-top: -23vw;
     margin-left: 10px;
 }
 
 .image_vi {
     margin-left: 2px;
+} */
+
+.alttop {
+    padding-right: 5px;
 }
 
 .date_wrapper {
@@ -208,3 +211,67 @@ h1 {
     font-size: 16px;
     line-height: 130%;
 }
+
+.girls {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.boys {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.girls_wrapper {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.boys_wrapper {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.girls_column1 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 15.3849vw; */
+
+}
+
+.girls_column2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.boysls_column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.boys_column2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;    
+}
+
+.image_girls__lil {
+    width: 44.5vw;
+}
+.image_girls {
+    width: 46vw;
+}
+
+.image_boys__lil {
+    width: 42.5vw;
+}
+
+.image_boys {
+    width: 48vw;
+}
+
+
